@@ -16,11 +16,11 @@
     <entity name="Passer" syncable="YES">
         <attribute name="currentTeam" optional="YES" attributeType="String" minValueString="10" syncable="YES"/>
         <attribute name="firstName" optional="YES" attributeType="String" minValueString="10" syncable="YES"/>
-        <attribute name="lastName" optional="YES" attributeType="String" minValueString="10" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" minValueString="15" syncable="YES"/>
         <relationship name="games" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Game" inverseName="passer" inverseEntity="Game" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Passer" positionX="-315" positionY="45" width="128" height="103"/>
         <element name="Game" positionX="27" positionY="45" width="128" height="208"/>
+        <element name="Passer" positionX="-315" positionY="45" width="128" height="103"/>
     </elements>
 </model>
