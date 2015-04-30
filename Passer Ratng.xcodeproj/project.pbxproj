@@ -16,6 +16,8 @@
 		0E404B241AF263E200165EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E404B231AF263E200165EC5 /* Images.xcassets */; };
 		0E404B271AF263E200165EC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E404B251AF263E200165EC5 /* LaunchScreen.xib */; };
 		0E404B331AF263E200165EC5 /* Passer_RatngTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E404B321AF263E200165EC5 /* Passer_RatngTests.m */; };
+		0E404B3E1AF2685000165EC5 /* rating.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E404B3C1AF2685000165EC5 /* rating.c */; };
+		0E404B3F1AF2685000165EC5 /* rating.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E404B3C1AF2685000165EC5 /* rating.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0E404B2C1AF263E200165EC5 /* Passer RatngTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passer RatngTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E404B311AF263E200165EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E404B321AF263E200165EC5 /* Passer_RatngTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passer_RatngTests.m; sourceTree = "<group>"; };
+		0E404B3C1AF2685000165EC5 /* rating.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rating.c; sourceTree = "<group>"; };
+		0E404B3D1AF2685000165EC5 /* rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rating.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 		0E404B041AF263E200165EC5 = {
 			isa = PBXGroup;
 			children = (
+				0E404B3C1AF2685000165EC5 /* rating.c */,
+				0E404B3D1AF2685000165EC5 /* rating.h */,
 				0E404B0F1AF263E200165EC5 /* Passer Ratng */,
 				0E404B2F1AF263E200165EC5 /* Passer RatngTests */,
 				0E404B0E1AF263E200165EC5 /* Products */,
@@ -227,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E404B3E1AF2685000165EC5 /* rating.c in Sources */,
 				0E404B1F1AF263E200165EC5 /* DetailViewController.m in Sources */,
 				0E404B1C1AF263E200165EC5 /* MasterViewController.m in Sources */,
 				0E404B161AF263E200165EC5 /* AppDelegate.m in Sources */,
@@ -239,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E404B3F1AF2685000165EC5 /* rating.c in Sources */,
 				0E404B331AF263E200165EC5 /* Passer_RatngTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Passer Ratng/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -368,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Passer Ratng/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
